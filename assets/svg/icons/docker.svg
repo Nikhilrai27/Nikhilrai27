@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect x="2" y="2" width="28" height="28" rx="6" stroke="rgba(255,255,255,0.15)" stroke-width="1" fill="rgba(255,255,255,0.03)"/>
+  <rect x="7" y="12" width="3" height="3" rx="0.5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="11" y="12" width="3" height="3" rx="0.5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="15" y="12" width="3" height="3" rx="0.5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="11" y="8" width="3" height="3" rx="0.5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="15" y="8" width="3" height="3" rx="0.5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="19" y="12" width="3" height="3" rx="0.5" fill="rgba(255,255,255,0.3)"/>
+  <path d="M23 16c0 0-1 5-7 5s-8-3-8-3c0 0 9 1 13-2h2z" stroke="rgba(255,255,255,0.5)" stroke-width="1" fill="none"/>
+  <path d="M7 17h-2" stroke="rgba(255,255,255,0.25)" stroke-width="1" stroke-linecap="round"/>
+  <path d="M6 20h-1" stroke="rgba(255,255,255,0.25)" stroke-width="1" stroke-linecap="round"/>
+  <path d="M8 20h-1" stroke="rgba(255,255,255,0.25)" stroke-width="1" stroke-linecap="round"/>
+</svg>

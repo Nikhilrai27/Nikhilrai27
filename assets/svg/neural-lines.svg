@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <defs>
+    <linearGradient id="nlGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(76,201,240,0)" />
+      <stop offset="30%" stop-color="rgba(76,201,240,0.08)" />
+      <stop offset="50%" stop-color="rgba(139,92,246,0.06)" />
+      <stop offset="70%" stop-color="rgba(34,211,238,0.08)" />
+      <stop offset="100%" stop-color="rgba(76,201,240,0)" />
+    </linearGradient>
+  </defs>
+  <g opacity="0.4">
+    <!-- Neural pathways -->
+    <path d="M 0 60 Q 50 20 100 60 T 200 60 T 300 40 T 400 80" stroke="url(#nlGrad)" stroke-width="0.8" fill="none"/>
+    <path d="M 0 80 Q 60 100 120 70 T 240 50 T 320 80 T 400 60" stroke="url(#nlGrad)" stroke-width="0.5" fill="none"/>
+    <path d="M 0 40 Q 40 80 80 40 T 160 80 T 260 40 T 400 60" stroke="url(#nlGrad)" stroke-width="0.5" fill="none"/>
+    <!-- Nodes -->
+    <circle cx="100" cy="60" r="2" fill="rgba(76,201,240,0.3)"/>
+    <circle cx="200" cy="60" r="2.5" fill="rgba(139,92,246,0.3)"/>
+    <circle cx="300" cy="40" r="2" fill="rgba(34,211,238,0.3)"/>
+    <circle cx="120" cy="70" r="1.5" fill="rgba(76,201,240,0.2)"/>
+    <circle cx="240" cy="50" r="1.5" fill="rgba(139,92,246,0.2)"/>
+    <circle cx="320" cy="80" r="1.5" fill="rgba(34,211,238,0.2)"/>
+    <!-- Data flow -->
+    <circle cx="100" cy="60" r="1" fill="rgba(76,201,240,0.6)">
+      <animate attributeName="cx" values="0;400" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="60" r="1" fill="rgba(139,92,246,0.5)">
+      <animate attributeName="cx" values="400;0" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
