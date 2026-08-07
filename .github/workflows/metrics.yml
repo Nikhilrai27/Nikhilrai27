@@ -1,12 +1,21 @@
+# Generates assets/metrics.svg and commits it back to main.
+#
+# Requires a repository secret named METRICS_TOKEN: a classic personal access
+# token with the `public_repo` scope. The default GITHUB_TOKEN cannot read the
+# user-level data these plugins need, so without METRICS_TOKEN this job fails.
 name: Generate GitHub Metrics
 
 on:
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
 
 jobs:
   metrics:
@@ -14,20 +23,20 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate Metrics
-        uses: lowlighter/metrics@latest
+      - name: Generate metrics
+        uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: assets/metrics.svg
           config_timezone: Asia/Kolkata
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           repositories_forks: no
           repositories_affiliations: owner
-          commits_authoring: Nikhilrai27
+          commits_authoring: ${{ github.repository_owner }}
           plugin_languages: yes
           plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
@@ -35,7 +44,6 @@ jobs:
           plugin_languages_ignored: html, css
           plugin_stars: yes
           plugin_stars_limit: 4
-          plugin_followup: yes
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_charts: yes
@@ -43,4 +51,3 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           config_output: svg
-          output: assets/metrics.svg
