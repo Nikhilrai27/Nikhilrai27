@@ -1,111 +1,112 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/banner/header-dark.svg" alt="Nikhil Rai — AI Engineer" width="100%">
-</div>
+<img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/banner/header-dark.svg" width="100%" alt="Nikhil Rai — AI Engineer"/>
 
 <p align="center">
-  <a href="https://github.com/Nikhilrai27"><img src="https://img.shields.io/badge/GitHub-0B0B0B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://linkedin.com/in/nikhilrai27"><img src="https://img.shields.io/badge/LinkedIn-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/github/followers/Nikhilrai27?style=for-the-badge&label=Followers&color=0B0B0B&labelColor=0B0B0B" alt="Followers">
+  <a href="https://github.com/Nikhilrai27" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/nikhilrai27" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/Nikhilrai27?tab=followers" target="_blank">
+    <img src="https://img.shields.io/github/followers/Nikhilrai27?style=for-the-badge&label=Followers&color=000000&labelColor=000000" alt="Followers" />
+  </a>
 </p>
 
----
+<br>
 
-## About
+<h2 align="center"> <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/about.svg" width="25"/> <em>About me</em> </h2>
 
-Building autonomous AI systems that reason, retrieve, and synthesize.
+<img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/hero-neural-network.svg" width="250" align="right" alt="" />
+<br/>
 
-My focus is **agentic architecture** — multi-agent orchestration, retrieval pipelines with memory and tool use, and the infrastructure that makes them reliable enough to run unattended.
+<p>
+  Hello there! <em><b>I'm Nikhil Rai</b></em>, an AI engineer working on autonomous systems that reason, retrieve, and synthesize. My focus is <b>agentic architecture</b> — multi-agent orchestration, retrieval pipelines with memory and tool use, and the infrastructure that makes them reliable enough to run unattended.
+</p>
 
-- Working on **ResearchOS**, an AI research operating system for multi-agent literature review and knowledge synthesis
-- Interested in compound AI systems, long-horizon agent planning, and evaluation
-- Open to collaborations on AI research infrastructure and developer tooling
-
----
-
-## Tech Stack
+<br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/python.svg" width="30" height="30" alt="Python" title="Python">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/fastapi.svg" width="30" height="30" alt="FastAPI" title="FastAPI">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/langchain.svg" width="30" height="30" alt="LangChain" title="LangChain">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/langgraph.svg" width="30" height="30" alt="LangGraph" title="LangGraph">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/openai.svg" width="30" height="30" alt="OpenAI" title="OpenAI">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/gemini.svg" width="30" height="30" alt="Gemini" title="Gemini">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/qdrant.svg" width="30" height="30" alt="Qdrant" title="Qdrant">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/postgresql.svg" width="30" height="30" alt="PostgreSQL" title="PostgreSQL">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/docker.svg" width="30" height="30" alt="Docker" title="Docker">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/git.svg" width="30" height="30" alt="Git" title="Git">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/linux.svg" width="30" height="30" alt="Linux" title="Linux">
+   <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/dot-build.svg" width="15"/>   <em><b> Building ResearchOS — a multi-agent research operating system </b></em> <br/>
+   <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/dot-focus.svg" width="15"/>   <em><b> Working with LangGraph, RAG pipelines and vector retrieval </b></em><br/>
+   <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/dot-build.svg" width="15"/>   <em><b> Exploring long-horizon agent planning and evaluation </b></em><br/>
+   <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/dot-connect.svg" width="15"/>   <em><b> Open to collaborations on AI research infrastructure </b></em><br/>
 </p>
+
+<br/>
+<br/>
+
+<h2 align="center"> <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/tech.svg" width="25"/> <em> Technologies </em> </h2>
 
 <p align="center">
-  <sub>Python · FastAPI · LangChain · LangGraph · OpenAI · Gemini · Qdrant · PostgreSQL · Docker · Git · Linux</sub>
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=langgraph&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-000000?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
----
+<br/>
 
-## Featured Projects
+<h2 align="center"> <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/projects.svg" width="25"/> <em> Projects </em> </h2>
 
-<table>
+<table align="center">
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
 ### [ResearchOS](https://github.com/Nikhilrai27/ResearchOS)
 
-Multi-agent research environment for literature review and knowledge synthesis.
+<sub>Multi-agent research environment for literature review and knowledge synthesis.</sub>
 
-`Python` `LangGraph` `RAG`
+<sub>`Python` `LangGraph` `RAG`</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
 ### [Resume Job Match Analyzer](https://github.com/Nikhilrai27/resume-job-match-analyzer)
 
-Semantic matching between resumes and job descriptions with LLM-backed scoring.
+<sub>Semantic matching between resumes and job descriptions with LLM-backed scoring.</sub>
 
-`Python` `FastAPI` `NLP`
+<sub>`Python` `FastAPI` `NLP`</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
 ### [Knowledge Lens](https://github.com/Nikhilrai27/knowledge_lens)
 
-Retrieval layer for querying and exploring document collections.
+<sub>Retrieval layer for querying and exploring document collections.</sub>
 
-`Python` `RAG` `Vector Search`
+<sub>`Python` `RAG` `Vector Search`</sub>
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-## Activity
+<h2 align="center"> <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/main/assets/svg/icons/ui/stats.svg" width="25"/> <em> Statistics </em> </h2>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution graph"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikhilrai27&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="Activity graph"/>
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=Nikhilrai27&theme=transparent&hide_border=true&background=000000&stroke=71717A&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=A1A1AA&currStreakLabel=71717A&sideLabels=71717A&dates=52525B" width="90%" alt="Contribution streak"/>
+
+</div>
+
+<br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nikhilrai27/Nikhilrai27/output/github-contribution-grid-snake-dark.svg" alt="Contribution graph" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Nikhilrai27&theme=transparent&hide_border=true&background=050505&stroke=71717A&ring=4CC9F0&fire=4CC9F0&currStreakNum=FFFFFF&sideNums=A1A1AA&currStreakLabel=71717A&sideLabels=71717A&dates=52525B" alt="Contribution streak" width="90%">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikhilrai27&theme=github-dark&bg_color=050505&color=A1A1AA&line=4CC9F0&point=4CC9F0&area=true&area_color=4CC9F0&hide_border=true&custom_title=Contribution%20Activity" alt="Activity graph" width="100%">
-</p>
-
----
-
-<p align="center">
-  <sub>The best way to predict the future is to build it.</sub>
+  <sub><em>The best way to predict the future is to build it.</em></sub>
 </p>
